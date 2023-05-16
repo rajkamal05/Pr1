@@ -9,7 +9,7 @@ console.log("Hello")
 
 
 
-function check(value){
+function check(value:boolean){
     if(value){
         console.log("Perform an Action")
     }

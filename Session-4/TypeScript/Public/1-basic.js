@@ -1,0 +1,17 @@
+let myMane = "Rajkamal";
+let agee = 30;
+let address;
+address = "Greater Noida";
+let mbno;
+mbno = 7020939065;
+let isMarried;
+isMarried = true;
+let empid;
+empid = "GU1230";
+empid = 123;
+let msg;
+msg = { x: 10 };
+msg = 10;
+msg = "abc";
+msg = true;
+msg = [12, 23];
