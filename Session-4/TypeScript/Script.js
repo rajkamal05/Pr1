@@ -13,6 +13,6 @@ function check(value) {
         console.log("Can't Perform Anything");
     }
 }
-check("true");
+check(true);
 var inputs = document.querySelectorAll('input');
 console.log(inputs);

@@ -20,7 +20,7 @@ function check(value){
 }
 
 
-check("true")
+check(true)
 
 
 const inputs = document.querySelectorAll('input')
