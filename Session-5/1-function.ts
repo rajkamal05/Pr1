@@ -36,11 +36,11 @@ function getTime():any{
 console.log(typeof(getTime()))
 console.log(getTime())
 
-function sum(x:number,y:number,z:number):number{
+function summ(x:number,y:number,z:number):number{
     return x + y + z 
 }
 
-function sum1(x:number,y:number,z?:number):number{
+function sum11(x:number,y:number,z?:number):number{
     return x + y + (z || 0); 
 }
 
@@ -53,7 +53,7 @@ function sum3(x:number,y:number,...data:number[]):number{
 }
 
 
-console.log(sum(3,4,5))
-console.log(sum1(3,4))
+console.log(summ(3,4,5))
+console.log(sum11(3,4))
 console.log(sum2(3,4))
 console.log(sum3(3,4,5,6,7,8,9,2,4,5,8,44,7,87))
